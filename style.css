@@ -152,18 +152,30 @@ h1{
     }
     
     #mazeContainer {
-        height: auto; /* ปรับความสูงให้เป็นอัตโนมัติ */
+        height: 90%; /* ปรับความสูงให้เป็นอัตโนมัติ */
         width: 90%; /* ให้ความกว้างเต็มที่ */
         opacity: 1; /* แสดง mazeContainer */
+        margin-top: 20%;
     }
 
     #mazeCanvas {
         width: 90%; /* ปรับความกว้างให้เต็มที่ */
-        height: auto; /* ปรับความสูงให้เป็นอัตโนมัติ */
+        height: 90%; /* ปรับความสูงให้เป็นอัตโนมัติ */
     }
 
     .text{
-        width: 90%;
+        width: 100%;
+        min-width: 250px;
         height: auto;
+        min-height: 200px;
+        font-size: 0.72em;
+    }
+
+    #instructions {
+        margin-top: 550px;
+    }
+
+    #Message-Container #message {
+        width: 250px;
     }
 }
