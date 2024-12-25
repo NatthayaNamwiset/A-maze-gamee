@@ -131,7 +131,7 @@ h1{
 
 .text{
     width: 500px;
-    height: 220px;
+    height: 240px;
     background-color: rgba(131, 6, 6, 0.86);
     border-radius: 15px;
     padding-top: 15px;
@@ -139,6 +139,12 @@ h1{
     line-height: 1.5; 
     
 }
+
+#moves{
+    color: rgb(29, 19, 3);
+}
+
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 400px) {
 	input, select {
