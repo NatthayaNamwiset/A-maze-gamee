@@ -131,7 +131,8 @@ h1{
 
 .text{
     width: 500px;
-    height: 240px;
+    height:auto;
+    min-height: 240;
     background-color: rgba(131, 6, 6, 0.86);
     border-radius: 15px;
     padding-top: 15px;
@@ -145,9 +146,19 @@ h1{
 }
 
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 400px) {
-	input, select {
-	    width: 120px;
-	}
+@media only screen and (max-width: 480px) {
+    input, select {
+        width: 120px; /* ปรับขนาดของ input และ select */
+    }
+    
+    #mazeContainer {
+        height: auto; /* ปรับความสูงให้เป็นอัตโนมัติ */
+        width: 100%; /* ให้ความกว้างเต็มที่ */
+        opacity: 1; /* แสดง mazeContainer */
+    }
+
+    #mazeCanvas {
+        width: 100%; /* ปรับความกว้างให้เต็มที่ */
+        height: auto; /* ปรับความสูงให้เป็นอัตโนมัติ */
+    }
 }
